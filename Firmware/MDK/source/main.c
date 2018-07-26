@@ -79,7 +79,6 @@ int main(void)
 	    Delay(10000);
 		//EP1_OUT_Callback();
 		//Joystick_Send();
-		////USART_SendData(USART1, 0x26);
 	    if (bDeviceState == CONFIGURED);
 	    {
 	      Joystick_Send();
