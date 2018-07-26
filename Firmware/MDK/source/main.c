@@ -77,8 +77,6 @@ int main(void)
   while (1)
 	{
 	    Delay(10000);
-		//EP1_OUT_Callback();
-		//Joystick_Send();
 	    if (bDeviceState == CONFIGURED);
 	    {
 	      Joystick_Send();
